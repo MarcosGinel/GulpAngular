@@ -1,0 +1,23 @@
+{
+  "name": "gulpangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-uglify": "^2.1.0",
+    "pump": "^1.0.2"
+  }
+}
