@@ -92,7 +92,7 @@ gulp.task('inject', ['minify'], function() {
   }
   //gulp.src('./dist/**/*.html')
   //    .pipe(inject(injectSrc))
-  //    .pipe(gulp.dest('./dest/'));
+  //    .pipe(gulp.dest('./dist/'));
   return gulp.src('./dist/**/*.html').pipe(inject(injectSrc)).pipe(gulp.dest('./dist'));
 
 });
